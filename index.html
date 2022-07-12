@@ -19,73 +19,77 @@
                     <a id=my_bio href="#my_bio">My Bio</a>
                 </li>
                 <li>
-                    <a id=career_history href="#career_history">Career</a>
+                    <a id=career_history href="#mainPage">Career/Previous Projects</a>
                 </li>
                 <li>
                     <a href="./CV">CV</a>
                 </li>
                 <li>
-                    <a href="#contact">Contact</a>
+                    <a id=contact_info href="#contactInfo">Contact</a>
                 </li>
             </ul>
         </nav>
     </header>
 
-<!--introducing myself-->
+    <!--introducing myself-->
     <section>
         <img class="myimage" src="./assets/images/myphoto.png" alt="my photo" />
-        <h1 class="job-description"> Haider Ali</h1>
+        <h1 id="myName"> Haider Ali</h1>
 
     </section>
-<!--My personal information -->
-    <section id="my_bio" class="me">
+    <!--My personal information -->
+    <section id="my_bio" class="page">
         <h1>My Bio</h1>
         <p>
             Hi, my name is Haider. I am from the UK, Birmingham and I have begun a web devlopment course with the
-            univeristy of Birmingham. I enjoy playing circket.
+            univeristy of Birmingham. I enjoy playing circket. I have chosen to do this bootcamp in order to develop my
+            understanding in coding, also I want to attain a job in this field. It is something I enjoy and I do not want
+            to waste the oppurtunity now that it is given to me.
     </section>
-<br>
-<!--my career infomration-->
-        <section id="career_history" class="ch">
-        <h1>Career History</h1>
-        <p>
-        <ul>
-            Digital Ambassador - HMRC
-        </ul>
-        <ul>
-            Project Manager - Property Services
-        </ul>
-        <ul>
-            Customer Service Representative - HSBC
-        </ul>
-        </p>
-    </section>
-
     <br>
+    <!--my career infomration-->
+    <main id="mainPage" class="page">
+        <section id="career_history">
+            <h1>Career History</h1>
+            <p>
+            <ul>
+                Digital Ambassador - HMRC
+            </ul>
+            <ul>
+                Project Manager - Property Services
+            </ul>
+            <ul>
+                Customer Service Representative - HSBC
+            </ul>
+            </p>
+        </section>
 
-<section id="portfolio" class="portfolio">
-    <div class="flex-row ">
-        <h2 class="section-title">Work done</h2> 
-      </div>
+        <br>
 
-      The following image works as a link:<br>
-      <a href="https://haiderali1998.github.io/haider-code-refactor01/">
-         <img alt="previous wok" src="./assets/images/mainmockup.png"
-         width=550px height=550px>
-      </a>
-</section>
+        <section id="portfolio" class="portfolio">
+            <div class="flex-row ">
+                <h2 class="section-title">Work done so far as a developer</h2>
+            </div>
 
-
-
+            The following images works as a link:<br>
+            <a href="https://haiderali1998.github.io/haider-code-refactor01/">
+                <img alt="previous wok" src="./assets/images/mainmockup.png" width=250px height=350px>
+            </a>
+            <img id=imageTwo alt="copyright free image" src="./assets/images/imagetwo.jpg" width=200px height=150px>
+            <img id=imageTwo alt="copyright free image" src="./assets/images/imagethree.jpeg" width=200px height=150px
+                earth>
+        </section>
+    </main>
 
 
 
 
     <!--my contact information-->
-    <h1>Contact</h1>
-<ul>Email - haiderali9823@outlook.com</ul>
-<ul>Phone - 07387276337</ul>
-
+    <section id="contactInfo">
+        <h1>Contact</h1>
+        <ul>Email - haiderali9823@outlook.com</ul>
+        <ul>Phone - 07387276337</ul>
+    </section>
     </main>
 
 

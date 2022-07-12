@@ -1,99 +1,127 @@
 :root {
-    background-color: #0dd4ee;
+  background-color: #0dd4ee;
 }
 
 body {
-    position: sticky;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: whitesmoke;
-    justify-content: space-between;
+  position: sticky;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: whitesmoke;
+  justify-content: space-between;
 }
 
 header {
-    padding: 20px 35px;
-    position: static;
-    background-color: #1084f0;
-    flex-wrap: wrap;
-    display: -webkit-flex;
-    justify-content: space-between;;
-    
-}
-
- 
-header nav ul li a {
-    margin: 0 30px;
-    font-weight: lighter;
-    font-size: 30px;
-    color: var(--primary-color);
-    text-decoration: none;
-    border-bottom: 2px solid;
-    padding-bottom: 2px;
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
+  padding: 20px 35px;
+  position: static;
+  background-color: #1084f0;
+  flex-wrap: wrap;
+  display: -webkit-flex;
+  justify-content: space-between;
   
 
+}
+
+nav ul {
+  display: flex;
+}
+
+.page {
+  height: 15vh;
+  text-align: center;
+}
+
+#my_bio {
+  padding-top: 30px;
+}
+
+
+header nav ul li a {
+  margin: 0 30px;
+  font-weight: lighter;
+  font-size: 30px;
+  color: var(--primary-color);
+  text-decoration: none;
+  border-bottom: 2px solid;
+  padding-bottom: 2px;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+
 li {
-    display: inline;
-    padding: 0px 20px;
-    text-decoration: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-    color: white;
-    font-size: medium;
-  }
+  display: inline;
+  padding: 0px 20px;
+  text-decoration: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif color: white;
+  font-size: medium;
+}
 
 
-.myimage {    position: relative;
-    top: 10px;
-    right: 0px;
-    border: 5px #fafbfc solid;
-    height:150px;
-    width: 150px;
-    
+.myimage {
+  position: relative;
+  top: 10px;
+  right: 0px;
+  border: 5px #fafbfc solid;
+  height: 150px;
+  width: 150px;
+
+}
+
+#myName {
+  position: relative;
+  bottom: 30px;
+  font-style: italic;
+  font-size: 50px;
+
+}
+
+@media screen and (max-width: 992px) {
+  header {
+    background: #4a0dd8;
+    font-size: 30px;
   }
- 
+
+  .myimage {
+    max-width: 100%;
+    max-height: 100%;
+    flex-wrap: wrap;
+  }
+
   .job-description {
-    position: relative;
-    left: 800px;
-    bottom: 30px;
-    font-style: italic;
-    font-size: 50px;
-    display: inline;
-    order: 2;
-    
+    background: #4a0dd8;
+    font-size: 30px;
+    width: fit-content;
+    justify-content: left;
+    flex-direction: column-reverse;
   }
 
-  @media screen and (max-width: 992px) {
-    header {
-      background: #4a0dd8;
-      font-size: 30px;
-    }
-
-    @media screen and (max-width: 750px) {
-      header {
-        background: #4a0dd8;
-        font-size: 30px;
-        width: fit-content;
-      }
-
-
-    @media screen and (max-width: 992px) 
-      .myimage {
-        max-width: 100%;
-        max-height: 100%;
-        flex-wrap: wrap;
-      }
-
-      @media screen and (max-width: 992px) {
-        .job-description {
-          background: #4a0dd8;
-          font-size: 30px;
-          width: fit-content;
-          justify-content: left;
-        }
-
-    body {
-      background: #4d8f94;
-      font-size: 30px;
-    }
+  body {
+    background: #4d8f94;
+    font-size: 30px;
   }
+}
+
+
+
+@media screen and (max-width: 750px) {
+  header {
+    background: #4a0dd8;
+    font-size: 30px;
+    flex-direction: column;
+  }
+  nav ul {
+    flex-direction: column;
+  }
+  #myName {
+    display: block;
+  }
+}
+
+#imageTwo {
+padding-left: 3cm;
+
+}
+
+#contactInfo {
+padding-top: 15cm;
+
+}
