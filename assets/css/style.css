@@ -20,6 +20,15 @@ header {
 
 }
 
+#mainPage {
+  padding-top: 3cm;
+}
+
+#mainPicture {
+  border: 3px #097bec solid;
+}
+
+
 nav ul {
   display: flex;
 }
@@ -60,7 +69,7 @@ li {
   position: relative;
   top: 10px;
   right: 0px;
-  border: 5px #fafbfc solid;
+  border: 5px #097bec solid;
   height: 150px;
   width: 150px;
 
@@ -118,6 +127,8 @@ li {
 
 #imageTwo {
 padding-left: 3cm;
+padding-right: 3cm;
+border: #4a0dd8 solid;
 
 }
 
