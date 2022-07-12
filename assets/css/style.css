@@ -26,6 +26,7 @@ header {
 
 #mainPicture {
   border: 3px #097bec solid;
+  box-shadow: 5px black ;
 }
 
 
@@ -53,6 +54,8 @@ header nav ul li a {
   padding-bottom: 2px;
   flex-wrap: wrap;
   flex-direction: column;
+  font-style: obliquq;
+  font-weight: 100;
 }
 
 
@@ -80,6 +83,7 @@ li {
   bottom: 30px;
   font-style: italic;
   font-size: 50px;
+  text-decoration: underline;
 
 }
 
