@@ -110,7 +110,14 @@ li {
   body {
     background: #4d8f94;
     font-size: 30px;
+
+    #contactInfo {
+      margin-top: 15px;
+      padding-top: 30px
+
+    }
   }
+
 }
 
 
@@ -127,6 +134,9 @@ li {
   #myName {
     display: block;
   }
+  #contactIndo {
+    padding-top: 30cm;
+  }
 }
 
 #imageTwo {
@@ -138,5 +148,6 @@ border: #4a0dd8 solid;
 
 #contactInfo {
 padding-top: 15cm;
+
 
 }
